@@ -8,6 +8,7 @@ return (
             <li className='navbar-item' onClick={()=>onNavClick('home')}>Home</li>
             <li className='navbar-item' onClick={()=>onNavClick('usertable')}>User Table</li>
             <li className='navbar-item' onClick={()=>onNavClick('stopwatch')}>Stop Watch</li>
+            <li className='navbar-item' onClick={()=>onNavClick('userForm')}>User Form Submission</li>
         </ul>
  
     </nav>
