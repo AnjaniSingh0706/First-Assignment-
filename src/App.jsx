@@ -11,6 +11,8 @@ import MyErrorBoundary from './components/trms/ErrorBoundary';
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Login from './components/trms/Login'; // Assuming you created Login component
+import MyProfileDetails from './components/trms/MyProfileDetails';
+import Calendar from './components/trms/Calendar';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false); // State to track login status
@@ -48,6 +50,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/employees" element={<Employees />} />
+              <Route path="/profile" element={<MyProfileDetails />} />
+              <Route path="/calendar" element={<Calendar />} />
             </Routes>
           </div>
         </div>
