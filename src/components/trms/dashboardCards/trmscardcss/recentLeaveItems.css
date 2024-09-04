@@ -1,0 +1,90 @@
+.rLeaveList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .rLeaveDayCount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rLeaveDayNumber {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .rLeaveDayText {
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .rLeaveType {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .rLeaveTypeText {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .rLeaveTypeDate {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .rLeaveStatusIcon {
+    margin-right: 5px;
+  }
+  
+  .rLeaveStatus {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .statusOpen {
+    color: #ffc107;
+  }
+  
+  .statusApproved {
+    color: #28a745;
+  }
+  
+  .statusRejected {
+    color: #dc3545;
+  }
+  
+  .rLeaveStatusIcon i {
+    font-size: 18px;
+  }
+  
+  /* Additional styling for responsiveness */
+  @media (max-width: 600px) {
+    .rLeaveList {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .rLeaveDayCount {
+      margin-bottom: 10px;
+    }
+  
+    .rLeaveStatus {
+      margin-top: 10px;
+    }
+  }
+  

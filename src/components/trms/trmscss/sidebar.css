@@ -1,0 +1,50 @@
+.sidebar {
+  margin-top: 20px;
+  width: 250px;
+  height: 100vh;
+  background-color: #006aff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-logo {
+  margin-bottom: 20px;
+}
+
+.sidebar-logo-img {
+  width: 80px;
+  height: auto; /* Ensures image keeps its aspect ratio */
+  margin-bottom: 20px;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar-nav li {
+  margin: 15px 0;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+  background-color: #e2e6ea;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; /* Space between the icon and text */
+}

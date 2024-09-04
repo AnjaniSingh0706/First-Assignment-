@@ -6,6 +6,7 @@ function Stopwatch(){
     // const starttime=useRef(0);
     // const intervalTime=useRef(0);
 useEffect(()=>{
+    console.log("component rendered")
     let interval;
     if(isRunning){
         interval =setInterval(()=>{

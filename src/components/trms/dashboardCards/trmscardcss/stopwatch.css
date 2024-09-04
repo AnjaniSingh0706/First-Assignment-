@@ -1,0 +1,42 @@
+.stopwatch-container {
+    background-color: #9bf2ef;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .stopwatch-header {
+    margin-bottom: 20px;
+  }
+  
+  .stopwatch-header h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .stopwatch-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stopwatch-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stopwatch-time .label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .stopwatch-time .value {
+    font-size: 16px;
+    color: #333;
+  }
+  

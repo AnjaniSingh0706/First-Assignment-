@@ -1,0 +1,12 @@
+.dashboard-card {
+  margin-top: 20px;
+  border: 4px solid #220f0f; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 16px; /* Padding inside the card */
+  background-color: #faf6f6; /* White background */
+  }
+  
+  .card-content {
+    margin-top: 20px;
+
+  }

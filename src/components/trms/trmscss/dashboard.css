@@ -1,0 +1,26 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Fixed width for the sidebar */
+  /* background-color: #f4f4f4; Example background color */
+}
+
+
+
+.dashboard-main {
+ flex-grow: 1; /*This allows the main content to take up the remaining space */
+  padding: 20px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.dashboard-card-wrapper {
+  margin: 0 10px; /* Adjust spacing as needed */
+  flex: 0 0 auto; /* Prevent cards from shrinking */
+}
