@@ -1,6 +1,7 @@
 import './components/Stopwatch/stopwatch.css';
 import Stopwatch from './components/Stopwatch/Stopwatch';
 import Employees from './components/trms/Employees';
+import EmployeesList from './components/trms/EmployeesList';
 // import Navbar from './components/Navbar/Navbar'
 // import UserForm from './components/Form/UserForm';
 import Dashboard from './components/trms/Dashboard';
@@ -49,7 +50,7 @@ function App() {
             </Modal>
             <Routes>
               <Route path="/" element={<Dashboard />} />
-              <Route path="/employees" element={<Employees />} />
+              <Route path="/employees" element={<EmployeesList />} />
               <Route path="/profile" element={<MyProfileDetails />} />
               <Route path="/calendar" element={<Calendar />} />
             </Routes>

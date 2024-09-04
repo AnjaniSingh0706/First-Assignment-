@@ -3,9 +3,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
 import { setSelectedUser } from './store/Store';
+import Sidebar from './Sidebar';
+import  Header from './Header';
 
-
-function Usertable({ onClose }) {
+function EmployeesList({ onClose }) {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
   const dispatch = useDispatch();
@@ -36,7 +37,10 @@ function Usertable({ onClose }) {
   }
 
   return (
-
+    <div className="dashboard">
+    <Sidebar/>
+      <div className="dashboard-main">
+       <Header />
     <div className="usertable">
       <h2>Select an Employee</h2>
       <table>
@@ -58,7 +62,9 @@ function Usertable({ onClose }) {
         </tbody>
       </table>
     </div>
+    </div>
+    </div>
   );
 }
 
-export default Usertable;
+export default EmployeesList;
